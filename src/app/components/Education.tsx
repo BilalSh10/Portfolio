@@ -7,7 +7,7 @@ const Education = () => {
         <div className="flex flex-row gap-20 mr-24 phone:mr-0 phone:ml-4 phone:gap-0">
             <div className="flex flex-col items-center justify-start gap-4  mt-14">
                 <Bs1SquareFill style={{color: '#BD2F1F'}} size={26}/>
-                <hr className="w-0.5 h-56 bg-gray-500 rounded-xl"/>
+                <hr className="w-0.5 h-24 phone:h-56 bg-gray-500 rounded-xl"/>
                 <Bs2SquareFill style={{color: '#BD2F1F'}} size={26}/>
             </div>
             <div className="flex flex-col gap-10 items-center p-12">
