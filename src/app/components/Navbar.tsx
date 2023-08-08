@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
 
         <Link href='/'>
-            <Image className='h-10 w-40 phone:h-7 phone:w-28' src={logoImage} alt='picLogo'/>
+            <Image className='h-10 w-40 phone:h-9 phone:w-36' src={logoImage} alt='picLogo'/>
         </Link>
 
         <div className={menuClicked? 'flex flex-col gap-8 p-8 bg-black absolute top-0 right-0 z-10 text-white opacity-90': 'flex flex-row gap-14 items-center phone:hidden'}>
@@ -46,7 +46,7 @@ const Navbar = () => {
             </a>
         </div>
         <div className='phone:inline-block hidden' onClick={menuClickedFunction}>
-          <HiOutlineMenuAlt3 size={22}/>
+          <HiOutlineMenuAlt3 size={28}/>
         </div>
     </nav>
   )

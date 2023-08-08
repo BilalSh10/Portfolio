@@ -39,16 +39,16 @@ const Header = () => {
             target="_blank"
             download={true}
             href="/myCV.pdf"
-            className="inline-flex items-center justify-center h-12 px-8 phone:h-9 phone:text-sm phone:px-2 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded-lg hover:bg-gray-800 focus:shadow-outline focus:outline-none"
+            className="inline-flex items-center justify-center h-12 px-8 phone:h-10 phone:text-sm phone:px-6 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded-lg hover:bg-gray-800 focus:shadow-outline focus:outline-none"
           >
-            Resume
+            Hire Me
           </a>
           <a
             target="_blank"
             href="mailto:shweike000@gmail.com"
-            className="inline-flex items-center justify-center h-12 px-8 phone:h-9 phone:text-sm phone:px-2 font-medium tracking-wide text-black transition duration-200 bg-white rounded-lg hover:bg-gray-50 focus:shadow-outline focus:outline-none border"
+            className="inline-flex items-center justify-center h-12 px-8 phone:h-10 phone:text-sm phone:px-6 font-medium tracking-wide text-black transition duration-200 bg-white rounded-lg hover:bg-gray-50 focus:shadow-outline focus:outline-none border"
           >
-            Hire Me
+            Resume
           </a>
         </div>
       </div>
