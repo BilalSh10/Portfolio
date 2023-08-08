@@ -12,14 +12,14 @@ const Header = () => {
       transition={{ duration: 0.5 }}
       className="flex flex-row justify-evenly items-center gap-4 phone:flex-col phone:gap-0"
     >
-      <div className="w-[45rem] h-[35rem] phone:h-80 phone:w-96">
+      <div className="w-[45rem] h-[35rem] phone:h-72 phone:w-96">
         <Lottie
           animationData={HeaderAnimation}
         />
       </div>
 
       <div
-        className="flex flex-col gap-7 phone:p-8"
+        className="flex flex-col gap-7 phone:p-8 phone:mb-6"
       >
         <h1 className="text-5xl font-bold phone:text-2xl">
           Turning Vision Into

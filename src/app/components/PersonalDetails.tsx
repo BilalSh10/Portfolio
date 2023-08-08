@@ -11,12 +11,12 @@ const PersonalDetails = () => {
       transition={{ duration: 0.5 }}
       className="flex flex-col items-center pb-28"
     >
-      <h1 className="text-7xl font-bold p-20 text-gray-900">
+      <h1 className="text-7xl font-bold p-20 text-gray-900  phone:text-3xl phone:text-center phone:w-full phone:p-10">
         Passion Fuels Purpose!
       </h1>
-      <div className="flex flex-row items-start justify-evenly">
-        <div>
-          <h1 className="font-bold text-gray-600">
+      <div className="flex flex-row items-start justify-evenly phone:flex-col phone:items-center">
+        <div className="phone:pl-8 phone:pr-8 phone:pt-12 phone:pb-4">
+          <h1 className="font-bold text-gray-600 phone:">
             <i>BIOGRAPHY</i>
           </h1>
           <p className="my-6 font-medium">
@@ -53,25 +53,25 @@ const PersonalDetails = () => {
             next project.
           </p>
         </div>
-        <div className="w-1/4 h-auto rounded-2xl border-2 border-solid bg-light p-8 border-gray-700 shadow-lg shadow-black">
+        <div className="w-1/4 h-auto rounded-2xl border-2 border-solid bg-light p-8 border-gray-700 shadow-lg shadow-black phone:order-first phone:w-3/4">
           <Image className="rounded-2xl" src={myPhoto} alt="pic" />
         </div>
-        <div className="flex flex-col justify-around items-center gap-20">
-          <div className="flex items-end flex-col">
-            <h1 className="font-bold text-5xl">2+</h1>
-            <p className="text-gray-700 font-semiboldbold text-xl">
+        <div className="flex flex-col justify-around items-center gap-20 phone:flex-row phone:gap-2 phone:pl-5">
+          <div className="flex items-end flex-col phone:items-center">
+            <h1 className="font-bold text-5xl phone:text-3xl">2+</h1>
+            <p className="text-gray-700 font-semiboldbold text-xl phone:text-base">
               Satisfied Clients
             </p>
           </div>
-          <div className="flex items-end flex-col">
-            <h1 className="font-bold text-5xl">4+</h1>
-            <p className="text-gray-700 font-semiboldbold text-xl">
+          <div className="flex items-end flex-col phone:items-center">
+            <h1 className="font-bold text-5xl phone:text-3xl">4+</h1>
+            <p className="text-gray-700 font-semiboldbold text-xl phone:text-base">
               Projects Completed
             </p>
           </div>
-          <div className="flex items-end flex-col">
-            <h1 className="font-bold text-5xl">2+</h1>
-            <p className="text-gray-700 font-semiboldbold text-xl">
+          <div className="flex items-end flex-col phone:items-center">
+            <h1 className="font-bold text-5xl phone:text-3xl">2+</h1>
+            <p className="text-gray-700 font-semiboldbold text-xl phone:text-base">
               Years Of Experience
             </p>
           </div>

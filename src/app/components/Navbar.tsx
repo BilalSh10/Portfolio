@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className='flex flex-row justify-around w-full mr-28 p-6 phone:justify-between phone:mr-0 phone:items-center phone:p-8'>
-        <div className={menuClicked? 'flex flex-col gap-8 p-8 bg-black absolute top-0 right-0 w-full h-screen z-10 text-white opacity-90': 'flex flex-row gap-12 items-center phone:hidden'}>
+        <div className={menuClicked? 'flex flex-col gap-8 p-8 bg-black fixed top-0 right-0 w-full h-screen z-10 text-white opacity-90': 'flex flex-row gap-12 items-center phone:hidden'}>
             <div className={menuClicked? 'inline-block w-fit' : 'hidden'} onClick={menuClickedFunction}>
               <AiOutlineClose size={25}/>
             </div>
