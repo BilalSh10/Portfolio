@@ -10,19 +10,18 @@ const Header = () => {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
-      className="flex flex-row justify-evenly items-center gap-4"
+      className="flex flex-row justify-evenly items-center gap-4 phone:flex-col phone:gap-0"
     >
-      <div className="">
+      <div className="w-[45rem] h-[35rem] phone:h-80 phone:w-96">
         <Lottie
-          style={{ width: "45rem", height: "35rem" }}
           animationData={HeaderAnimation}
         />
       </div>
 
       <div
-        className="flex flex-col gap-7"
+        className="flex flex-col gap-7 phone:p-8"
       >
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-5xl font-bold phone:text-2xl">
           Turning Vision Into
           <br />
           Realty With Code <br />
@@ -40,14 +39,14 @@ const Header = () => {
             target="_blank"
             download={true}
             href="/myCV.pdf"
-            className="inline-flex items-center justify-center h-12 px-8 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded-lg hover:bg-gray-800 focus:shadow-outline focus:outline-none"
+            className="inline-flex items-center justify-center h-12 px-8 phone:h-9 phone:text-sm phone:px-2 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded-lg hover:bg-gray-800 focus:shadow-outline focus:outline-none"
           >
             Resume
           </a>
           <a
             target="_blank"
             href="mailto:shweike000@gmail.com"
-            className="inline-flex items-center justify-center h-12 px-8 font-medium tracking-wide text-black transition duration-200 bg-white rounded-lg hover:bg-gray-50 focus:shadow-outline focus:outline-none border"
+            className="inline-flex items-center justify-center h-12 px-8 phone:h-9 phone:text-sm phone:px-2 font-medium tracking-wide text-black transition duration-200 bg-white rounded-lg hover:bg-gray-50 focus:shadow-outline focus:outline-none border"
           >
             Hire Me
           </a>

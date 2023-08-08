@@ -1,6 +1,6 @@
 [
     {
         "name": "React.js",
-        "image": "react.png"
+        "image": "url('../../../public/next.svg')"
     }
 ]
