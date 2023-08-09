@@ -37,15 +37,15 @@ const Header = () => {
         <div className="flex flex-row gap-4">
           <a
             target="_blank"
-            download={true}
-            href="/myCV.pdf"
+            href="mailto:shweike000@gmail.com"
             className="inline-flex items-center justify-center h-12 px-8 phone:h-10 phone:text-sm phone:px-6 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded-lg hover:bg-gray-800 focus:shadow-outline focus:outline-none"
           >
             Hire Me
           </a>
           <a
             target="_blank"
-            href="mailto:shweike000@gmail.com"
+            download={true}
+            href="/myCV.pdf"
             className="inline-flex items-center justify-center h-12 px-8 phone:h-10 phone:text-sm phone:px-6 font-medium tracking-wide text-black transition duration-200 bg-white rounded-lg hover:bg-gray-50 focus:shadow-outline focus:outline-none border"
           >
             Resume
