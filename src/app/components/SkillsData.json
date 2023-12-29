@@ -1,6 +1,46 @@
 [
     {
-        "name": "React.js",
-        "image": "url('../../../public/next.svg')"
+        "name": "ReactJs",
+        "image": "/skillsPictures/react.png"
+    },
+    {
+        "name": "NextJs",
+        "image": "/skillsPictures/next.png"
+    },
+    {
+        "name": "Python",
+        "image": "/skillsPictures/python.png"
+    },
+    {
+        "name": "Github",
+        "image": "/skillsPictures/github.png"
+    },
+    {
+        "name": "Firebase",
+        "image": "/skillsPictures/firebase.png"
+    },
+    {
+        "name": "Tailwind css",
+        "image": "/skillsPictures/tailwind.png"
+    },
+    {
+        "name": "CSS",
+        "image": "/skillsPictures/css.png"
+    },
+    {
+        "name": "HTML",
+        "image": "/skillsPictures/html.png"
+    },
+    {
+        "name": "JavaScript",
+        "image": "/skillsPictures/javascript.png"
+    },
+    {
+        "name": "NodeJs",
+        "image": "/skillsPictures/nodejs.png"
+    },
+    {
+        "name": "Postgres",
+        "image": "/skillsPictures/Postgresql.png"
     }
 ]

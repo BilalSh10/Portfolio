@@ -1,7 +1,7 @@
 'use client';
 import React, {useState} from 'react'
 import Image from 'next/image'
-import logoImage from './../assets/1.png';
+import logoImage from './../assets/logo.png';
 import {BsLinkedin, BsGithub, BsInstagram} from 'react-icons/bs';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';

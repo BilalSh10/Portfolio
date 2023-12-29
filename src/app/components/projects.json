@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Booking Flights Website",
+        "website_url": "https://booking-flights-website.vercel.app/",
+        "github_url": "https://github.com/BilalSh10/Booking_Flights_Website",
+        "image": "/projectsImages/p1.png"
+    },
+    {
+        "name": "Booking Events Website",
+        "website_url": "https://teatro-369c1.web.app/",
+        "github_url": "https://github.com/BilalSh10/Ekhtar-Al-Saadah",
+        "image": "/projectsImages/p2.png"
+    },
+    {
+        "name": "Pick random football team app",
+        "website_url": "https://pick-random-team.netlify.app/",
+        "github_url": "https://github.com/BilalSh10/RandomTeam",
+        "image": "/projectsImages/project3.png"
+    }
+]
