@@ -1,20 +1,30 @@
 [
-    {
-        "name": "Booking Flights Website",
-        "website_url": "https://booking-flights-website.vercel.app/",
-        "github_url": "https://github.com/BilalSh10/Booking_Flights_Website",
-        "image": "/projectsImages/p1.png"
-    },
-    {
-        "name": "Booking Events Website",
-        "website_url": "https://teatro-369c1.web.app/",
-        "github_url": "https://github.com/BilalSh10/Ekhtar-Al-Saadah",
-        "image": "/projectsImages/p2.png"
-    },
-    {
-        "name": "Pick random football team app",
-        "website_url": "https://pick-random-team.netlify.app/",
-        "github_url": "https://github.com/BilalSh10/RandomTeam",
-        "image": "/projectsImages/project3.png"
-    }
+  {
+    "name": "Anime4u",
+    "website_url": "https://e-commerce-website-omega-six.vercel.app/",
+    "github_url": "https://github.com/BilalSh10/e-commerce_website",
+    "image": "/projectsImages/Anime4uScreenShot.png",
+    "description": "A Full Stack e-commerce website that sells Anime products in the country, the main purpose of the website is to make money from selling these products. (Ready To Lunch)."
+  },
+  {
+    "name": "Booking Flights Website",
+    "website_url": "https://booking-flights-website.vercel.app/",
+    "github_url": "https://github.com/BilalSh10/Booking_Flights_Website",
+    "image": "/projectsImages/p1.png",
+    "description": "My project is a A Full Stack website that provides low-price tickets for whom want to fly anywhere anytime, the website allows the users to search for the country that they want to fly to and shows the users popular flights that were booked by other people. Moreover, the user can book the flight from other websites that he loves like Kiwi, booking, and Skyscanner."
+  },
+  {
+    "name": "Booking Events Website",
+    "website_url": "https://teatro-369c1.web.app/",
+    "github_url": "https://github.com/BilalSh10/Ekhtar-Al-Saadah",
+    "image": "/projectsImages/p2.png",
+    "description": "The aim of the project is to build a website that helps the association in administering the events it holds; it will manage the booking and cancellation of reservations. It will provide information to the visitor about the association, it’s past and upcoming events, it will offer the ability to contact it, subscribe to its mailing list to get notifications about upcoming events, and fill a donation form, as well as the ability to submit reviews."
+  },
+  {
+    "name": "Pick random football team app",
+    "website_url": "https://pick-random-team.netlify.app/",
+    "github_url": "https://github.com/BilalSh10/RandomTeam",
+    "image": "/projectsImages/project3.png",
+    "description": "A website that allow users to pick random teams from a list of Big football teams with a score for each team and an input fields to allow them to put their name on it to make random teams between them the perpose of this project to let people to play fifa game with their friends and to challange them fairly"
+  }
 ]
