@@ -47,7 +47,7 @@ const ProjectsSection = () => {
                   </a>
                 </div>
               </div>
-              <div className="items-start flex flex-row w-full gap-5">
+              <div className="items-start flex flex-row w-full gap-5 phone:flex-col">
                 <Image
                   className="rounded-lg"
                   src={project.image}
