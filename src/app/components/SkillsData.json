@@ -42,5 +42,21 @@
     {
         "name": "Postgres",
         "image": "/skillsPictures/Postgresql.png"
+    },
+    {
+        "name": "MongoDB",
+        "image": "/skillsPictures/mongodb.png"
+    },
+    {
+        "name": "Typescript",
+        "image": "/skillsPictures/Typescript.png"
+    },
+    {
+        "name": "Redux",
+        "image": "/skillsPictures/Redux.png"
+    },
+    {
+        "name": "Express",
+        "image": "/skillsPictures/express.png"
     }
 ]
