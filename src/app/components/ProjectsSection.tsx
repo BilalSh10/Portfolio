@@ -55,7 +55,10 @@ const ProjectsSection = () => {
                   height={400}
                   alt="pic"
                 />
-                <p className="text-sm">{project.description}</p>
+                <div className="flex flex-col gap-4">
+                  <p className="text-sm">{project.description}</p>
+                  <p className="text-sm font-medium">{project.technologies}</p>
+                </div>
               </div>
             </div>
           );
