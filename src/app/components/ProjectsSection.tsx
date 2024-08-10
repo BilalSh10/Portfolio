@@ -18,7 +18,7 @@ const ProjectsSection = () => {
           Imagination surpasses knowledge!
         </h1>
       </div>
-      <div className="flex flex-col justify-center items-center border gap-20 p-16 pb-24 phone:pb-16 phone:p-10">
+      <div className="flex flex-col items-center justify-center grid-flow-row border gap-20 p-16 pb-24 phone:pb-16 phone:p-10">
         {projects.map((project, index) => {
           return (
             <div

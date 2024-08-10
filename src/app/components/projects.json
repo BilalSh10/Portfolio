@@ -30,5 +30,21 @@
     "image": "/projectsImages/project3.png",
     "description": "A website that allow users to pick random teams from a list of Big football teams with a score for each team and an input fields to allow them to put their name on it to make random teams between them the perpose of this project to let people to play fifa game with their friends and to challange them fairly.",
     "technologies": "Next Js, JavaScript and CSS"
+  },
+  {
+    "name": "Shapley Value calculation",
+    "website_url": "/",
+    "github_url": "https://github.com/BilalSh10/Shapley_value",
+    "image": "/projectsImages/shapley_value.png",
+    "description": "I developed a web application that applies the Shapley Value from cooperative game theory, offering a more nuanced and fair assessment of player performance. The challenge I focused on was ensuring fair reward distribution in MOBA games by accurately recognizing each player's unique contributions.",
+    "technologies": "Python, JavaScript, with Next.js for the frontend, Tailwind CSS and ShadCN for a sleek UI, and Flask"
+  },
+  {
+    "name": "grandma take care reminder",
+    "website_url": "https://t.me/grandma125_bot",
+    "github_url": "https://github.com/grurniClasses/devboost1-telegram-bot-hackathon-team7",
+    "image": "/projectsImages/telegram_bot_grandma.png",
+    "description": " I had the pleasure of working with an amazing team of 4 talented developers. Together, we built a unique Telegram bot designed with a special purpose in mind: taking care of your grandma! 🧓❤️ Our bot sends reminders to family members to check in with their grandma, ensuring she never feels alone and always has someone to talk to. It's been a rewarding experience to create something that blends technology with compassion.",
+    "technologies": "Python, and telebot library"
   }
 ]
