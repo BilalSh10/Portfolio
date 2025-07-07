@@ -8,6 +8,14 @@
         "image": "/skillsPictures/next.png"
     },
     {
+        "name": "Blender",
+        "image": "/skillsPictures/blender.png"
+    },
+    {
+        "name": "ThreeJs",
+        "image": "/skillsPictures/threejs.png"
+    },
+    {
         "name": "Python",
         "image": "/skillsPictures/python.png"
     },
